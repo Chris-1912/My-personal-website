@@ -22,13 +22,15 @@ p{
 }   
 
 #port img{
-    filter: grayscale(100%);
-    opacity: 0.95;
+    filter: none;
+    opacity: 1;
+    
 }
 
 #port img:hover{
-    filter: none;
-    opacity: 1;
+    
+    filter: grayscale(100%);
+    opacity: 0.95;
 }
 
 .skill> .container{ 
