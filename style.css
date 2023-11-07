@@ -3,7 +3,13 @@ a{
     color: white;
 }
 
+.intro a{
+    text-decoration: none;   
+}
 
+a:hover{
+    color: #ea0f1e; 
+}
 
 h1, h2{
     
