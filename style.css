@@ -7,7 +7,7 @@ a{
     text-decoration: none;   
 }
 
-a:hover{
+.intro a:hover{
     color: #ea0f1e; 
 }
 
