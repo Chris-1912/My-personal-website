@@ -1,0 +1,69 @@
+
+a{
+    color: white;
+}
+
+
+
+h1, h2{
+    
+    color: white;
+}
+
+
+
+.intro span{
+   color: #ea0f1e;
+}
+
+p{
+    
+    color: #dee2e6bf;
+}   
+
+#port img{
+    filter: grayscale(100%);
+    opacity: 0.95;
+}
+
+#port img:hover{
+    filter: none;
+    opacity: 1;
+}
+
+.skill> .container{ 
+                                                                                                                                                                                                              
+    display: flex;
+    text-align: center;
+    justify-content: space-evenly;
+    
+}
+
+.language, .area{
+    align-self: center;
+}
+
+.skill p{
+    color: #ea0f1e;
+}
+
+
+
+.contact> .container{
+    display: grid;
+    grid-template-columns: 1fr;
+    text-align: center;
+
+}
+
+#port{
+    justify-content:center;
+    
+}
+
+
+
+.contact, .portfolio, .skill, .intro{
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
